@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.hero {
+    background-image: url(images/developer.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero h1 {
+    color: white;
+}
+
+.h1 {
+    font-size: 70px;
+    font-family: 'montserrat', sans-serif;
+}
+
+.tittle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 100px;
+}
+
+.work {
+    background-color: rgb(15, 9, 9);
+    color: white;
+    position: absolute;
+    top: 100vh;
+    width: 100%;
+    text-align: center;
+   
+}
+
+.work span{
+    font-size: 40px;
+}
+
+.work h2 {
+    font-size: 30px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    top: 115vh;
+    width: 100%;
+
+}
+
+.card1 {
+    width: 320px;
+    box-shadow: 3px 5px 3px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+
+}
+
+.card2 {
+    width: 320px;
+    box-shadow: 3px 5px 3px rgba(12, 9, 9, 0.4);
+    border-radius: 10px;
+
+}
+
+
+.card3 {
+    width: 320px;
+    box-shadow: 3px 5px 3px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+
+}
+
+.card1:hover {
+    transform: scale(1.05);
+}
+
+.card2:hover {
+    transform: scale(1.05);
+}
+
+.card3:hover {
+    transform: scale(1.05);
+}
+
+.hello {
+    padding-top: 500px;
+    width: 320px;
+    display: flex;
+    position: absolute;
+    left: 6%;
+}
+
+.hello2 {
+    position: absolute;
+    left: 200%;
+    top: 80%;
+    width: 320px;
+}
+
+.card4 {
+    position: absolute;
+    top: 180vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.main3 {
+    background-color: rgb(145, 240, 81);
+}
+
+.main2 {
+    background-color: brown;
+}
+
+.main4 {
+    position: absolute;
+    top: 90px;
+    left: 0vh;
+    background-color: black;
+    color: white;
+    width: 100%;
+    text-align: center;
+
+}
+
+.card4 h1 {
+    padding-left: 13px;
+}
+
+.card4 p {
+    padding-left: 13px;
+}
+
+@media screen and (max-width:450px) {
+    .tittle {
+        font-size: 20px;
+        margin-left: 30px;
+    }
+
+    .tittle span {
+        font-size: 50px;
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card2 {
+        position: relative;
+        top: 30px;
+    }
+
+    .card3 {
+        position: relative;
+        top: 50px;
+    }
+
+    .card4 {
+        position: relative;
+        top: 1200px;
+
+    }
+
+    .main4 {
+        font-size: 10px;
+        position: relative;
+        top: 1px;
+        padding: 10px;
+        margin-left: -20px;
+    }
+
+    .card4 {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .work h2{
+        white-space: nowrap;
+        font-size: 25px;
+    }
+}
+
