@@ -106,7 +106,7 @@
 
 .card4 {
     position: absolute;
-    top: 180vh;
+    top: 200px;
     display: flex;
     justify-content: space-around;
 }
